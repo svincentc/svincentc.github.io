@@ -1,0 +1,115 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: -10px;
+    margin-top: -10px;
+    color: #0f133d;
+}
+
+.hero{
+    background-image: url(images/municipal-building.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: whitesmoke;
+}
+
+.hero-content{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-top{
+    background: #F6D0B1;
+    text-shadow: 1px 1px 50px black;
+    width: 380px;
+    height: 50px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px 8px 5px 8px;
+}
+
+.hero-bottom{
+    padding: 5px 8px 5px 8px;
+    background: #CE4760;
+    border-radius: 12px;
+
+}
+
+.activities-overview{
+    background-color: #DDF093;
+    text-align: center;
+    padding-top: 15px;
+    height: 50%;
+    padding-bottom: 25px;
+}
+
+.activities-tiles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 0 15px 0 15px;
+}
+
+.activites-tile-headtext{
+    font-size: 1.5em;
+}
+
+.activities-tile-bodytext{
+    font-size: 1.3em;
+}
+
+#activities-titling {
+    font-style: italic;
+    font-size: xx-large;
+    padding-bottom: 30px;
+}
+
+
+.guide-overview{
+    display: flex;
+    background-color: #90E39A;
+    align-content: center;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-bottom: solid #638475 7px;
+    border-radius: 5px;
+}
+
+.guide-info{
+    padding-top: 50px;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-self: baseline;
+    margin-right: 15px;
+
+}
+
+#simon-attributes{
+    height: 300px;
+    width: 200x;
+    border-radius: 5%;
+    margin: 15px 15px 15px 15px;
+
+}
+
+#simon-info{
+    font-style: italic;
+}
+
+.too-big{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px whitesmoke solid;
+}
